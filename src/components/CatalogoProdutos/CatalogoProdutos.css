@@ -1,0 +1,64 @@
+
+/*------------------------------------------------<CATALOGO DE PRODUTOS>-------------------------------------------- */
+.container-produto{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    box-shadow: 3px 3px 13px darkgrey;
+    width: 300px;
+    height: 430px;
+    border-radius: 20px;
+}
+
+.container-produto img{
+    width: 240px;
+    height: 220px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.container-produto h2{
+    margin-left: 5%;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #313237;
+}
+
+
+.container-produto .descricao{
+    margin-left: 5%;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 900;
+    color: #57575a;
+}
+
+.container-produto .valor{
+    margin-left: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    color: #313237;
+}
+
+.container-produto button{
+    width: 170px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffd762;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    color: #313237;
+    margin-left: 5%;
+}
+
+
+button:hover{
+    background-color: rgb(231, 171, 4);
+    border: 1px solid #313237;
+}

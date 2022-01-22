@@ -9,7 +9,7 @@ import Seta from "../imagens/categoria-produtos.png"
 
 
 
-export default function Cabecalho() {
+export default function Header() {
   
   
 return( 
@@ -33,7 +33,7 @@ return(
             </li>
           </ul>
         </nav>
-        <nav class="categoria-produtos">
+        <nav className="categoria-produtos">
             <a href="#">Camisetas
                 <img className='seta-selecao' src={Seta} alt="Seta de seleção na categoria de produtos"/>
             </a>
