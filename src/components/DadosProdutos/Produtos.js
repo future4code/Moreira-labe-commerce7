@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 import styled from 'styled-components';
 import CatalogoProdutos from '../CatalogoProdutos/CatalogoProdutos';
 import Camiseta from '../imagens/camiseta.png'
@@ -49,7 +49,6 @@ export default class Produtos extends React.Component {
             
         ],
 
-        query: "",
     }
  
     render(){
@@ -64,3 +63,4 @@ export default class Produtos extends React.Component {
 
     )}
 }
+ */

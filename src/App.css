@@ -56,11 +56,40 @@ main{
     margin-top: 30px;
 }
 
+.ordenar-itens{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 900;
+    color: #57575a;
+}
+
+select{
+    margin-top: 7px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    width: 210px;
+    padding: 8px;
+}
+
 /* -----------------------------------------------<PRODUTOS>--------------------------------------------------- */
 
 .nossos-produtos{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 5px;
+    margin-top: 8px;
+    gap: 40px;
     cursor: pointer;
+}
+
+/* -----------------------------------------<CARRINHO DE COMPRAS>----------------------------------------------------------- */
+
+
+.carrinho-de-compras{
+    background-color: rgb(27, 29, 28);
+    color: white;
 }

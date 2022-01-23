@@ -8,6 +8,15 @@
     width: 300px;
     height: 430px;
     border-radius: 20px;
+    border: 2px solid #f1f1f1;
+    transition: all 0.3s ease;
+}
+
+.container-produto:hover{
+    box-shadow: 8px 8px 18px rgb(44, 43, 43);
+    background-color: rgba(153, 153, 153, 0.116);
+    border: 2px solid rgb(231, 231, 231);
+    
 }
 
 .container-produto img{
