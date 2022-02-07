@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+/* -----------------------------------------------<PÁGINA>--------------------------------------------------- */
+
+.pagina{
+    display: grid;
+    grid-template-rows: 200px 1fr;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* <main> */
+
+main{
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    gap: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* -----------------------------------------------<FILTROS>--------------------------------------------------- */
+.campo-filtros{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    grid-row: 1/4;
+    background-color: #f1f1f1;
+    text-align: center;
+    margin-left: 10px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 900;
+    color: #57575a;
+    z-index: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.filtro{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 900;
+    color: #57575a;
+    border-bottom: 1px solid #d1d1d1;
 }
 
-.App-link {
-  color: #61dafb;
+.campo-de-inputs input{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 10px;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.posicao-input{
+    margin-top: 30px;
+}
+
+.ordenar-itens{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 900;
+    color: #57575a;
+}
+
+select{
+    margin-top: 7px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    width: 210px;
+    padding: 8px;
+}
+
+/* -----------------------------------------------<PRODUTOS>--------------------------------------------------- */
+
+.nossos-produtos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 8px;
+    gap: 40px;
+    cursor: pointer;
+}
+
+/* -----------------------------------------<CARRINHO DE COMPRAS>----------------------------------------------------------- */
+
+
+.carrinho-de-compras{
+    background-color: rgb(27, 29, 28);
+    color: white;
 }
